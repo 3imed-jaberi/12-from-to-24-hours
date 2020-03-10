@@ -1,5 +1,5 @@
 {
-  "name": "12-from-to-24-hours",
+  "name": "switch-12-from-to-24-hours",
   "version": "1.0.0",
   "description": " Switch between 24 and 12 hours made easy .. ",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3imed-jaberi/12-from-to-24-hours.git"
+    "url": "git+https://github.com/3imed-jaberi/switch-12-from-to-24-hours.git"
   },
   "keywords": [
     "time",
@@ -36,7 +36,7 @@
     "mocha": "^7.1.0"
   },
   "bugs": {
-    "url": "https://github.com/3imed-jaberi/12-from-to-24-hours/issues"
+    "url": "https://github.com/3imed-jaberi/switch-12-from-to-24-hours/issues"
   },
-  "homepage": "https://github.com/3imed-jaberi/12-from-to-24-hours#readme"
+  "homepage": "https://github.com/3imed-jaberi/switch-12-from-to-24-hours#readme"
 }
