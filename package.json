@@ -1,12 +1,42 @@
 {
   "name": "12-from-to-24-hours",
   "version": "1.0.0",
-  "description": "initialization 🚧 ..",
+  "description": " Switch between 24 and 12 hours made easy .. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js",
+    "ci": "echo wait for coverage .. && npm run cover",
+    "postversion": "git push && git push --tags",
+    "prepublishOnly": "npm run ci",
+    "preversion": "npm run ci"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3imed-jaberi/12-from-to-24-hours.git"
+  },
+  "keywords": [
+    "time",
+    "clock",
+    "24-hours",
+    "12-hours",
+    "from-to",
+    "convert",
+    "8.x.x+"
+  ],
+  "author": {
+    "name": "imed jaberi",
+    "email": "3imed.jaberi@gmail.com",
+    "url": "https://3imed-jaberi.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/12-from-to-24-hours/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/12-from-to-24-hours#readme"
 }
