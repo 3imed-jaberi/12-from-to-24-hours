@@ -1,0 +1,12 @@
+{
+  "name": "12-from-to-24-hours",
+  "version": "1.0.0",
+  "description": "initialization 🚧 ..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
