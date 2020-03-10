@@ -7,7 +7,7 @@
  * SWITCH BETWEEN 24 AND 12 HOURS MADE EASY .. 
  * @param {string} time: input in this format xx:xx or xx:xx [A|P]M with x is number .. 
  */
-module.exports = function _12FromTo24Hours (time) {
+module.exports = function Switch12FromTo24Hours (time) {
 	let hours, minutes, suffix, result,
 	_24HourPattern = /^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$/,
 	_12HourPattern = /((1[0-2]|0[1-9]):([0-5][0-9]) ([AaPp][Mm]))/;
