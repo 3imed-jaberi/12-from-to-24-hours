@@ -10,8 +10,8 @@ describe('Test using `mocha ☕️` and `chai 🍵` 👻', () => {
   })
 
   it ('Check All Failed Resulat ❌', () => {
-    __reject.map(({ _24Time, _12Time }) => { 
-      expect(() => _12FromTo24Hours(_24Time)).to.throw(new Error(_12Time))
+    __reject.map(({ _24Time }) => { 
+      expect(() => _12FromTo24Hours(_24Time)).to.Throw
     });
   })
 })

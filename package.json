@@ -1,6 +1,6 @@
 {
   "name": "12fromto24hours",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "switch between 24 and 12 hours made easy.",
   "main": "index.js",
   "scripts": {
