@@ -18,7 +18,7 @@ module.exports = function _12FromTo24Hours (time) {
 		hours =	hours > 12 ? hours - 12 : (hours === 0 ? 12 : hours)
 		return `${hours}:${minutes} ${suffix}`
 	}
-	
+
 	if (_12HourPattern.test(time)) {
 		hours = +time.slice(0, 2)
 		minutes = time.slice(3, 5)
@@ -29,7 +29,7 @@ module.exports = function _12FromTo24Hours (time) {
 				// am result
 				? `${hours === 12 ? '00' : hours}:${minutes}`
 				// pm result
-				: `${hours + 12 === 24 ? hours : hours + 12}:${minutes}` 
+				: `${hours + 12 === 24 ? hours : hours + 12}:${minutes}`
 		)
 	}
 
