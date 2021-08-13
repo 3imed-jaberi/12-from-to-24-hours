@@ -3,14 +3,18 @@ const { __resolve, __reject } = require('./_data.json')
 const _12FromTo24Hours = require('..')
 
 describe('Test using `mocha ☕️` and `chai 🍵` 👻', () => {
-  it ('Check All Success Resulat ✔️', () => {
-    __resolve.map(({ _24Time, _12Time }) => { 
+  it('check all success resulat ✔️', () => {
+    __resolve.map(({ _24Time, _12Time }) => {
       expect(_12FromTo24Hours(_24Time)).to.equal(_12Time)
+    });
+
+    __resolve.map(({ _24Time, _12Time }, i) => {
+      expect(_12FromTo24Hours(_12Time)).to.equal(_24Time)
     });
   })
 
-  it ('Check All Failed Resulat ❌', () => {
-    __reject.map(({ _24Time }) => { 
+  it('check all failed resulat ❌', () => {
+    __reject.map(({ _24Time }) => {
       expect(() => _12FromTo24Hours(_24Time)).to.Throw
     });
   })

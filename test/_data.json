@@ -8,47 +8,47 @@
     {
       "_key": 1,
       "_24Time": "01:00",
-      "_12Time": "1:00 AM"
+      "_12Time": "01:00 AM"
     },
     {
       "_key": 2,
       "_24Time": "02:00",
-      "_12Time": "2:00 AM"
+      "_12Time": "02:00 AM"
     },
     {
       "_key": 3,
       "_24Time": "03:00",
-      "_12Time": "3:00 AM"
+      "_12Time": "03:00 AM"
     },
     {
       "_key": 4,
       "_24Time": "04:00",
-      "_12Time": "4:00 AM"
+      "_12Time": "04:00 AM"
     },
     {
       "_key": 5,
       "_24Time": "05:00",
-      "_12Time": "5:00 AM"
+      "_12Time": "05:00 AM"
     },
     {
       "_key": 6,
       "_24Time": "06:00",
-      "_12Time": "6:00 AM"
+      "_12Time": "06:00 AM"
     },
     {
       "_key": 7,
       "_24Time": "07:00",
-      "_12Time": "7:00 AM"
+      "_12Time": "07:00 AM"
     },
     {
       "_key": 8,
       "_24Time": "08:00",
-      "_12Time": "8:00 AM"
+      "_12Time": "08:00 AM"
     },
     {
       "_key": 9,
       "_24Time": "09:00",
-      "_12Time": "9:00 AM"
+      "_12Time": "09:00 AM"
     },
     {
       "_key": 10,
@@ -69,47 +69,47 @@
     {
       "_key": 13,
       "_24Time": "13:00",
-      "_12Time": "1:00 PM"
+      "_12Time": "01:00 PM"
     },
     {
       "_key": 14,
       "_24Time": "14:00",
-      "_12Time": "2:00 PM"
+      "_12Time": "02:00 PM"
     },
     {
       "_key": 15,
       "_24Time": "15:00",
-      "_12Time": "3:00 PM"
+      "_12Time": "03:00 PM"
     },
     {
       "_key": 16,
       "_24Time": "16:00",
-      "_12Time": "4:00 PM"
+      "_12Time": "04:00 PM"
     },
     {
       "_key": 17,
       "_24Time": "17:00",
-      "_12Time": "5:00 PM"
+      "_12Time": "05:00 PM"
     },
     {
       "_key": 18,
       "_24Time": "18:00",
-      "_12Time": "6:00 PM"
+      "_12Time": "06:00 PM"
     },
   
       {
       "_key": 19,
       "_24Time": "19:00",
-      "_12Time": "7:00 PM"
+      "_12Time": "07:00 PM"
     },  {
       "_key": 20,
       "_24Time": "20:00",
-      "_12Time": "8:00 PM"
+      "_12Time": "08:00 PM"
     },
     {
       "_key": 21,
       "_24Time": "21:00",
-      "_12Time": "9:00 PM"
+      "_12Time": "09:00 PM"
     },
     {
       "_key": 22,
@@ -132,6 +132,11 @@
       "_key": 1,
       "_24Time": "02:00 M",
       "_12Time": "please verif your input must by like this: HH:MM [A|P]M"
+    },
+    {
+      "_key": 1,
+      "_24Time": "please verif your input must by like this: HH:MM [A|P]M",
+      "_12Time": "02:00 M"
     }
   ]
 }
