@@ -18,3 +18,4 @@ yarn.lock
 #     Istanbul    #
 ###################
 coverage
+.nyc_output
