@@ -1,9 +1,10 @@
 {
   "name": "12fromto24hours",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "switch between 24 and 12 hours made easy.",
   "main": "index.js",
   "scripts": {
+    "lint": "npx standard index.js --fix",
     "test": "mocha",
     "cover": "nyc npm run test",
     "ci": "npm run cover",
