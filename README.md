@@ -8,21 +8,16 @@
 
 ## Installation
 
-- Npm :
-
 ```bash
+# npm
 $ npm install 12fromto24hours
-```
-
-- Yarn :
-
-```bash
+# yarn
 $ yarn add 12fromto24hours
 ```
 
 ## Usage
 
-The method of use is simple and very easy .. Just follow these steps :
+The method of use is simple and very easy. Just follow these steps:
 
 ```javascript
 const _12FromTo24Hours = require("12fromto24hours");
@@ -36,4 +31,4 @@ _12FromTo24Hours("20:00"); // 8:00 PM
 
 #### License
 
-[MIT](LICENSE)
+[MIT](LICENSE) &copy; [Imed Jaberi](https://github.com/3imed-jaberi)
